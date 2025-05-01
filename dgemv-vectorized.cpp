@@ -7,16 +7,12 @@ const char *dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
  * On exit, A and X maintain their input values.
  */
 void my_dgemv(int n, double *A, double *x, double *y) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; ++i) {
         double sum = 0.0;
+        double *multi = A + i * n;
 
-        for (int j = 0; j <= n - 4; j += 4) {
-            sum += A[i * n + j] * x[j] + A[i * n + j + 1] * x[j + 1] +
-                   A[i * n + j + 2] * x[j + 2] + A[i * n + j + 3] * x[j + 3];
-        }
-
-        for (int j = 0; j < n; j++) {
-            sum += A[i * n + j] * x[j];
+        for (int j = 0; j < n; ++j) {
+            sum += multi[j] * x[j];
         }
 
         y[i] += sum;
