@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/student/Desktop/648/2/build",
+  "command": "/usr/bin/c++   -O0 -o CMakeFiles/benchmark.dir/benchmark.cpp.o -c /home/student/Desktop/648/2/benchmark.cpp",
+  "file": "/home/student/Desktop/648/2/benchmark.cpp"
+},
+{
+  "directory": "/home/student/Desktop/648/2/build",
+  "command": "/usr/bin/c++   -O0 -Wall -pedantic -march=native -O1 -o CMakeFiles/benchmark-basic.dir/dgemv-basic.cpp.o -c /home/student/Desktop/648/2/dgemv-basic.cpp",
+  "file": "/home/student/Desktop/648/2/dgemv-basic.cpp"
+},
+{
+  "directory": "/home/student/Desktop/648/2/build",
+  "command": "/usr/bin/c++   -O0 -Wall -pedantic -O3 -DNDEBUG -fomit-frame-pointer -ftree-vectorize -funroll-loops -ffast-math -fopt-info-vec-all=report.txt -o CMakeFiles/benchmark-vectorized.dir/dgemv-vectorized.cpp.o -c /home/student/Desktop/648/2/dgemv-vectorized.cpp",
+  "file": "/home/student/Desktop/648/2/dgemv-vectorized.cpp"
+},
+{
+  "directory": "/home/student/Desktop/648/2/build",
+  "command": "/usr/bin/c++   -O0 -Wall -pedantic -march=native -o CMakeFiles/benchmark-blas.dir/dgemv-blas.cpp.o -c /home/student/Desktop/648/2/dgemv-blas.cpp",
+  "file": "/home/student/Desktop/648/2/dgemv-blas.cpp"
+},
+{
+  "directory": "/home/student/Desktop/648/2/build",
+  "command": "/usr/bin/c++   -O0 -fopenmp -Wall -pedantic -march=native -O1 -o CMakeFiles/benchmark-openmp.dir/dgemv-openmp.cpp.o -c /home/student/Desktop/648/2/dgemv-openmp.cpp",
+  "file": "/home/student/Desktop/648/2/dgemv-openmp.cpp"
+}
+]

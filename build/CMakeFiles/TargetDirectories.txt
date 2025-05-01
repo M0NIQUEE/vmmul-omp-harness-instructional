@@ -1,0 +1,7 @@
+/home/student/Desktop/648/2/build/CMakeFiles/benchmark.dir
+/home/student/Desktop/648/2/build/CMakeFiles/benchmark-basic.dir
+/home/student/Desktop/648/2/build/CMakeFiles/benchmark-vectorized.dir
+/home/student/Desktop/648/2/build/CMakeFiles/benchmark-blas.dir
+/home/student/Desktop/648/2/build/CMakeFiles/benchmark-openmp.dir
+/home/student/Desktop/648/2/build/CMakeFiles/edit_cache.dir
+/home/student/Desktop/648/2/build/CMakeFiles/rebuild_cache.dir

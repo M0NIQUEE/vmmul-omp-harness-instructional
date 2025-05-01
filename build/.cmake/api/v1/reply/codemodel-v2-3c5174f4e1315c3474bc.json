@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cp3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-Release-8ff222ced77fc3fd6bf3.json",
+					"name" : "benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-basic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-basic-Release-08faa31bb051aed7afce.json",
+					"name" : "benchmark-basic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-blas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-blas-Release-1907e36179622cd8b70f.json",
+					"name" : "benchmark-blas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-openmp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-openmp-Release-135098c25acde55a5b9c.json",
+					"name" : "benchmark-openmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark-vectorized::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark-vectorized-Release-1e4ea69f2e1defe4e75e.json",
+					"name" : "benchmark-vectorized",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/Desktop/648/2/build",
+		"source" : "/home/student/Desktop/648/2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
