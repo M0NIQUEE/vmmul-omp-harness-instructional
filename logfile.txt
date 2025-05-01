@@ -1,0 +1,7 @@
+-- Cray Programming Environment 2.7.32 C
+-- Cray Programming Environment 2.7.32 CXX
+-- compiler = GNU
+-- setting vector flags for gcc compiler = GNU
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /global/homes/m/moniquee/vmmul-omp-harness-instructional/build

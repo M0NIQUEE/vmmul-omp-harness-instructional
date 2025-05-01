@@ -1,0 +1,41 @@
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:12:1: note: ***** Analysis failed with vector mode VOID
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:10:23: missed: couldn't vectorize loop
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:10:23: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:27: optimized: loop vectorized using 32 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:27: optimized: loop vectorized using 16 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:13:27: optimized: loop vectorized using 32 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 2 loops in function.
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Analysis failed with vector mode V4DF
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** The result for vector mode V32QI would be the same
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Analysis failed with vector mode V16QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:22:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:10:23: missed: couldn't vectorize loop
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:27: missed: not vectorized: complicated access pattern.
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:27: optimized: loop vectorized using 32 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:27: optimized: loop vectorized using 16 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V4DF
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** The result for vector mode V32QI would be the same
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Analysis failed with vector mode V16QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:9:6: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:18:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:15:23: missed: couldn't vectorize loop
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:20:27: missed: not vectorized: complicated access pattern.
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:19:27: optimized: loop vectorized using 32 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:19:27: optimized: loop vectorized using 16 byte vectors
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:6: note: vectorized 1 loops in function.
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:6: note: ***** Analysis failed with vector mode V4DF
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:6: note: ***** The result for vector mode V32QI would be the same
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:6: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:6: note: ***** Analysis failed with vector mode V16QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:14:6: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:23:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:23:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/m/moniquee/vmmul-omp-harness-instructional/dgemv-vectorized.cpp:23:14: note: ***** Analysis failed with vector mode V4QI
