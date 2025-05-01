@@ -10,6 +10,7 @@ const char *dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
 /*
 https://www.jsums.edu/robotics/files/2016/12/FECS17_Proceedings-FEC3555.pdf 
 also some help from chatgpt
+resources from LECTURES 23,24,25
 */
 void my_dgemv(int n, double *A, double *x, double *y) {
     for (int i = 0; i < n; ++i) {

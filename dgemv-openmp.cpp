@@ -12,16 +12,22 @@ const char *dgemv_desc = "OpenMP dgemv.";
  * On exit, A and X maintain their input values.
  */
 
+/*
+https://www.geeksforgeeks.org/introduction-to-parallel-programming-with-openmp-in-cpp/
+https://curc.readthedocs.io/en/latest/programming/OpenMP-C.html
+resources from LECTURES 23,24,25
+
+*/
 void my_dgemv(int n, double *A, double *x, double *y) {
 
 #pragma omp parallel
     {
         int nthreads = omp_get_num_threads();
         int thread_id = omp_get_thread_num();
-        printf("my_dgemv(): Hello world: thread %d of %d checking in. \n",
-               thread_id, nthreads);
-        printf("my_dgemv(): For actual timing runs, please comment out these "
-               "printf() and omp_get_*() statements. \n");
+        //printf("my_dgemv(): Hello world: thread %d of %d checking in. \n",
+        //thread_id, nthreads);
+        //printf("my_dgemv(): For actual timing runs, please comment out these "
+        //"printf() and omp_get_*() statements. \n");
     }
 
     // insert your dgemv code here. you may need to create additional parallel regions,
